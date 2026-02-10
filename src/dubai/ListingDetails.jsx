@@ -2,20 +2,21 @@ import React from 'react';
 
 const ListingDetails = ({ title, specifications, description }) => {
   return (
-    <div className="flex w-[666px] flex-col justify-center items-end gap-8 rounded-2xl">
+    <div className="flex w-[666px] flex-col justify-center items-end gap-8 rounded-2xl" dir="rtl">
       {/* Title */}
       <div className="flex h-9 flex-col justify-center self-stretch text-[#374151] text-right font-['Dubai'] text-2xl font-medium leading-9">
         {title}
       </div>
 
       {/* Specifications */}
-      <div className="flex flex-col items-start gap-2">
+      <div className="flex flex-col items-end gap-2 self-stretch">
         {specifications?.map((spec, index) => (
           <div
             key={index}
-            className="flex py-2 justify-center items-center gap-6 rounded-lg"
+            className="flex w-full py-2 justify-start items-center gap-2 rounded-lg"
+            dir="rtl"
           >
-            <div className="w-40 text-[#374151] text-right font-['Dubai'] text-sm font-normal leading-6">
+            <div className="text-[#374151] text-right font-['Dubai'] text-sm font-normal leading-6">
               {spec.label}
             </div>
             <div className="text-[#111827] text-right font-['Dubai'] text-sm font-bold leading-6">

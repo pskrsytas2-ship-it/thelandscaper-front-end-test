@@ -38,16 +38,16 @@ const Footer = ({ logo, description, copyright, sections = [] }) => {
 
   return (
     <footer className="w-full bg-[#F9FAFB]">
-      <div className="w-full flex justify-center py-16 px-6">
+      <div className="w-full flex justify-center pt-0 pb-16 px-6">
         <div className="w-full max-w-[1440px]">
           <div className="flex flex-col gap-12">
             {/* Main content grid */}
-            <div className="flex items-start justify-between gap-20" dir="rtl">
+            <div className="flex items-start justify-between gap-10" dir="rtl">
               {/* Logo and description section - End */}
-              <div className="flex flex-col items-end gap-6 max-w-[500px]">
+              <div className="flex flex-col items-end gap-6 max-w-[500px] self-end ml-auto">
                 {/* Logo */}
                 {logo && (
-                  <div className="flex justify-end">
+                  <div className="flex justify-start w-full">
                     <svg
                       width="161"
                       height="40"
@@ -112,7 +112,7 @@ const Footer = ({ logo, description, copyright, sections = [] }) => {
 
               {/* Links sections */}
               {sections && sections.length > 0 && (
-                <div className="flex gap-20 flex-1 justify-start">
+                <div className="flex gap-20 flex-1 justify-start pt-8" >
                   {sections.map((section, index) => (
                     <div key={index} className="flex flex-col items-end gap-4 min-w-[180px]">
                       <h3 className="text-[#111827] text-right font-['Dubai'] text-sm font-bold leading-5">
@@ -123,11 +123,12 @@ const Footer = ({ logo, description, copyright, sections = [] }) => {
                           <li key={linkIndex}>
                             <a
                               href={link.link}
-                              className="text-[#0C7A1F] text-right font-['Dubai'] text-sm font-normal leading-5 hover:text-[#0A651B] transition-colors"
+                              className="text-[#0C7A1F] text-right font-['Dubai'] text-sm font-normal leading-5 hover:text-[#0A651B] transition-colors inline-flex items-center gap-2"
                               target={link.icon ? "_blank" : undefined}
                               rel={link.icon ? "noopener noreferrer" : undefined}
                             >
-                              {link.label}
+                              {link.icon && <SocialIcon type={link.icon} />}
+                              <span>{link.label}</span>
                             </a>
                           </li>
                         ))}

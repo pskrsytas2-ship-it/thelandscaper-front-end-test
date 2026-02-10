@@ -27,23 +27,23 @@ const Footer = () => {
         </div>
 
         {/* Company Links */}
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 pt-2">
           <h3 className="text-sm font-semibold text-grey-100">Company</h3>
           <ul className="flex flex-col gap-2">
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">About Us</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Contact Us</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">News and Events</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Visit Landscape Network</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">About Us</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">Contact Us</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">News and Events</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">Visit Landscape Network</a></li>
           </ul>
         </div>
 
         {/* FAQ Links */}
-        <div className="flex flex-col gap-3">
-          <h3 className="text-sm font-semibold text-grey-100">FAQ</h3>
+        <div className="flex flex-col gap-3 pt-8">
+          
           <ul className="flex flex-col gap-2">
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">FAQ</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Privacy Policy</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Terms & Conditions</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">FAQ</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">Privacy Policy</a></li>
+            <li><a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors">Terms & Conditions</a></li>
           </ul>
         </div>
 
@@ -51,9 +51,30 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-sm font-semibold text-grey-100">Social Media</h3>
           <ul className="flex flex-col gap-2">
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Facebook</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">Twitter</a></li>
-            <li><a href="#" className="text-sm text-grey-80 hover:text-brand transition-colors">LinkedIn</a></li>
+            <li>
+              <a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors inline-flex items-center gap-2">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M22 12.07C22 6.48 17.52 2 11.93 2 6.48 2 2 6.48 2 12.07 2 17.1 5.66 21.2 10.44 22v-6.99H7.9v-2.94h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.94h-2.34V22C18.34 21.2 22 17.1 22 12.07z"/>
+                </svg>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors inline-flex items-center gap-2">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19.95 7.58c.01.14.01.29.01.43 0 4.42-3.36 9.52-9.52 9.52-1.89 0-3.65-.55-5.12-1.5.26.03.52.04.79.04 1.57 0 3.01-.53 4.16-1.43a3.35 3.35 0 0 1-3.12-2.32c.2.03.4.05.61.05.29 0 .57-.04.84-.11a3.34 3.34 0 0 1-2.68-3.28v-.04c.45.25.96.41 1.5.43a3.34 3.34 0 0 1-1.04-4.46 9.5 9.5 0 0 0 6.89 3.49 3.34 3.34 0 0 1 5.69-3.04 6.7 6.7 0 0 0 2.12-.81 3.33 3.33 0 0 1-1.47 1.84 6.7 6.7 0 0 0 1.92-.53 7.18 7.18 0 0 1-1.67 1.73z"/>
+                </svg>
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm text-[#0C7A1F] hover:text-[#0A651B] transition-colors inline-flex items-center gap-2">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20.45 20.45h-3.56v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.4-2.07 2.86v5.49H9.46V9h3.42v1.56h.05c.48-.9 1.65-1.85 3.39-1.85 3.62 0 4.29 2.38 4.29 5.48v6.26zM5.34 7.43c-1.14 0-2.06-.93-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.13-.92 2.06-2.06 2.06zM7.12 20.45H3.56V9h3.56v11.45zM22 2H2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -62,4 +83,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

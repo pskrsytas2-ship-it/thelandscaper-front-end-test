@@ -5,6 +5,7 @@ import ItemDetailPage from './pages/ItemDetailPage';
 import LandingPage from './pages/LandingPage';
 import DetailsPage from './pages/DetailsPage';
 import DubaiProjectDetailDemo from './pages/DubaiProjectDetailDemo';
+import DubaiItemDetailPage from './dubai/ItemDetailPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/landing" element={<LandingPage />} />
       <Route path="/listing/:listingId" element={<DetailsPage />} />
       <Route path="/dubai/project-detail" element={<DubaiProjectDetailDemo />} />
+      <Route path="/dubai/items/:category/:id" element={<DubaiItemDetailPage />} />
 
       {/* Original Routes */}
       <Route path="/home" element={<HomePage />} />

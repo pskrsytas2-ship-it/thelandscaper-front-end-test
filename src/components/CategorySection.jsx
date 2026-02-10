@@ -21,7 +21,7 @@ const CategorySection = ({ icon, title, listings }) => {
         {/* View All Link */}
         <a
           href="#"
-          className="text-sm font-semibold text-brand hover:text-brand/80 capitalize transition-colors"
+          className="text-sm font-semibold text-[#3B82F6] hover:text-[#2563EB] capitalize transition-colors"
         >
           View all
         </a>
@@ -32,7 +32,7 @@ const CategorySection = ({ icon, title, listings }) => {
         className={
           isForumSection
             ? 'grid grid-cols-1 md:grid-cols-3 gap-4'
-            : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4'
+            : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'
         }
       >
         {isForumSection
@@ -48,7 +48,7 @@ const CategorySection = ({ icon, title, listings }) => {
                 commentCount={listing.commentCount}
               />
             ))
-          : listings.slice(0, 5).map((listing, index) => (
+          : listings.slice(0, 4).map((listing, index) => (
               <ListingCard
                 key={listing.id || index}
                 id={listing.id || index.toString()}

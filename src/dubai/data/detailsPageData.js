@@ -13,14 +13,14 @@ export const projectsDetailData = {
     },
     imageGallery: {
       mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/25805b85ee9b7ab1a9bb9121e0ef8891b372b99b',
+        src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701157/Frame_628862-3_pxcyeu.jpg',
         alt: 'الشامه - تصميم حديقة'
       },
       thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/25805b85ee9b7ab1a9bb9121e0ef8891b372b99b', alt: 'الشامه 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/46dc379ca3b835c7b62debfbba9664f327409d44', alt: 'الشامه 2' }
+        { id: 1, src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701161/Rectangle_25_aweb3h.jpg', alt: 'الشامه 1' },
+        { id: 2, src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701160/Rectangle_23_xanbqo.jpg', alt: 'الشامه 2' }
       ],
-      imageCount: 8
+      imageCount: 3
     },
     company: {
       publishedDate: 'تم النشر: منذ 3 أيام',
@@ -51,14 +51,14 @@ export const projectsDetailData = {
     },
     imageGallery: {
       mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/46dc379ca3b835c7b62debfbba9664f327409d44',
+        src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701158/Rectangle_22_fzr2ap.jpg',
         alt: 'حديقة مريحة مع صيانة متقنة'
       },
       thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/46dc379ca3b835c7b62debfbba9664f327409d44', alt: 'حديقة 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/18726854b4b33d33ef16f6a4136c5d7cf8779460', alt: 'حديقة 2' }
+        { id: 1, src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701155/Frame_628862-2_jwa8fj.jpg', alt: 'حديقة 1' },
+        { id: 2, src:'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701155/Frame_628862-1_sniayx.jpg', alt: 'حديقة 2' }
       ],
-      imageCount: 15
+      imageCount: 3
     },
     company: {
       publishedDate: 'تم النشر: منذ يومين',
@@ -89,12 +89,12 @@ export const projectsDetailData = {
     },
     imageGallery: {
       mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574',
+        src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701161/Rectangle_25_aweb3h.jpg',
         alt: 'مشروع نخلة أريكا'
       },
       thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574', alt: 'نخلة أريكا 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3', alt: 'نخلة أريكا 2' }
+        { id: 1, src:'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701160/Rectangle_23_xanbqo.jpg', alt: 'نخلة أريكا 1' },
+        //{ id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3', alt: 'نخلة أريكا 2' }
       ],
       imageCount: 12
     },
@@ -127,12 +127,12 @@ export const projectsDetailData = {
     },
     imageGallery: {
       mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3',
+        src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701160/Rectangle_23_xanbqo.jpg',
         alt: 'حديقة مصغرة'
       },
       thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3', alt: 'حديقة مصغرة 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4', alt: 'حديقة مصغرة 2' }
+        { id: 1, src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701158/Rectangle_22_fzr2ap.jpg', alt: 'حديقة مصغرة 1' },
+        { id: 2, src: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701155/Frame_628862-2_jwa8fj.jpg', alt: 'حديقة مصغرة 2' }
       ],
       imageCount: 10
     },
@@ -156,84 +156,84 @@ export const projectsDetailData = {
       description: 'مشروع تنسيق حديقة مصغرة مثالي للمساحات الصغيرة. يتميز بتصميم ذكي يستغل كل متر مربع بكفاءة عالية. يشمل المشروع نباتات قزمة متنوعة، أحواض زراعية صغيرة، وديكورات حجرية تضيف لمسة جمالية فريدة. الحل الأمثل للمنازل ذات المساحات المحدودة.'
     }
   },
-  'project-5': {
-    breadcrumb: {
-      items: [
-        { label: 'المشاريع', link: '/categories/projects', active: false },
-        { label: 'عمل حديقة بمساحة جيدة', link: '#', active: true }
-      ]
-    },
-    imageGallery: {
-      mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/069f5e3f17bdf6c593745f1c45b47bc51a41cbf3?width=1536',
-        alt: 'حديقة واسعة'
-      },
-      thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/607d9c93f9e05f3765230472828718da55ac6f4e?width=736', alt: 'حديقة واسعة 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/27e66cd00a5172e0dd67fbbaeb0f762ed4c6014f?width=736', alt: 'حديقة واسعة 2' }
-      ],
-      imageCount: 18
-    },
-    company: {
-      publishedDate: 'تم النشر: منذ يوم',
-      projectTitle: 'عمل حديقة بمساحة جيدة | مرافق ممتازة | دفعتين',
-      companyName: 'شركة النجد للتنسيق.',
-      companyLogo: 'https://api.builder.io/api/v1/image/assets/TEMP/ac255a85a30c3107b0be7335f83bf1c90e98a58d?width=144',
-      rating: '5.0',
-      reviewCount: '٣٢ تقييمات'
-    },
-    projectDetails: {
-      title: 'المواصفات',
-      specifications: [
-        { label: 'النوع', value: 'حديقة كبيرة متعددة الاستخدامات' },
-        { label: 'المساحة', value: '800 متر مربع' },
-        { label: 'الموقع', value: 'أبوظبي' },
-        { label: 'مدة التنفيذ', value: '8 أسابيع' },
-        { label: 'الدفع', value: 'على دفعتين' },
-        { label: 'المرافق', value: 'منطقة ألعاب، ممرات، إضاءة، نظام ري' }
-      ],
-      description: 'مشروع حديقة واسعة بمساحة كبيرة تشمل جميع المرافق الحديثة. تم تصميم الحديقة لتلبي احتياجات العائلات الكبيرة مع توفير مناطق متعددة الاستخدامات. يتضمن المشروع منطقة ألعاب للأطفال، منطقة جلوس عائلية، ممرات للمشي، وإضاءة LED موفرة للطاقة. نظام الدفع المرن على دفعتين يسهل على العملاء تنفيذ مشاريعهم.'
-    }
-  },
-  'project-6': {
-    breadcrumb: {
-      items: [
-        { label: 'المشاريع', link: '/categories/projects', active: false },
-        { label: 'مشروع نخلة أريكا | 4 غرف', link: '#', active: true }
-      ]
-    },
-    imageGallery: {
-      mainImage: {
-        src: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4',
-        alt: 'مشروع نخلة أريكا متكامل'
-      },
-      thumbnails: [
-        { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4', alt: 'مشروع نخلة 1' },
-        { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574', alt: 'مشروع نخلة 2' }
-      ],
-      imageCount: 20
-    },
-    company: {
-      publishedDate: 'تم النشر: منذ 4 أيام',
-      projectTitle: 'مشروع نخلة أريكا | عمل حديقة بمساحة جيدة | 4 غرف نوم وحمامين',
-      companyName: 'شركة لتنسيق الحدائق المخصصة.',
-      companyLogo: 'https://api.builder.io/api/v1/image/assets/TEMP/ac255a85a30c3107b0be7335f83bf1c90e98a58d?width=144',
-      rating: '4.9',
-      reviewCount: '٢٤ تقييمات'
-    },
-    projectDetails: {
-      title: 'المواصفات',
-      specifications: [
-        { label: 'النوع', value: 'مشروع تنسيق حدائق فيلا فاخرة' },
-        { label: 'المساحة', value: '950 متر مربع' },
-        { label: 'الموقع', value: 'دبي' },
-        { label: 'مدة التنفيذ', value: '10 أسابيع' },
-        { label: 'عدد النخيل', value: '25 نخلة أريكا' },
-        { label: 'المميزات', value: 'حديقة خلفية وأمامية، نافورة، شلال صناعي' }
-      ],
-      description: 'مشروع تنسيق حدائق متكامل لفيلا فاخرة مكونة من 4 غرف نوم وحمامين. يشمل المشروع تصميم حديقة خلفية وأمامية بمساحة إجمالية تقارب 1000 متر مربع. تم استخدام 25 نخلة أريكا عالية الجودة موزعة بشكل استراتيجي. يتضمن المشروع نافورة مركزية، شلال صناعي، نظام إضاءة متطور، ومناطق جلوس متعددة. تنفيذ احترافي بأعلى معايير الجودة والفخامة.'
-    }
-  }
+  // 'project-5': {
+  //   breadcrumb: {
+  //     items: [
+  //       { label: 'المشاريع', link: '/categories/projects', active: false },
+  //       { label: 'عمل حديقة بمساحة جيدة', link: '#', active: true }
+  //     ]
+  //   },
+  //   imageGallery: {
+  //     mainImage: {
+  //       src: 'https://api.builder.io/api/v1/image/assets/TEMP/069f5e3f17bdf6c593745f1c45b47bc51a41cbf3?width=1536',
+  //       alt: 'حديقة واسعة'
+  //     },
+  //     thumbnails: [
+  //       { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/607d9c93f9e05f3765230472828718da55ac6f4e?width=736', alt: 'حديقة واسعة 1' },
+  //       { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/27e66cd00a5172e0dd67fbbaeb0f762ed4c6014f?width=736', alt: 'حديقة واسعة 2' }
+  //     ],
+  //     imageCount: 18
+  //   },
+  //   company: {
+  //     publishedDate: 'تم النشر: منذ يوم',
+  //     projectTitle: 'عمل حديقة بمساحة جيدة | مرافق ممتازة | دفعتين',
+  //     companyName: 'شركة النجد للتنسيق.',
+  //     companyLogo: 'https://api.builder.io/api/v1/image/assets/TEMP/ac255a85a30c3107b0be7335f83bf1c90e98a58d?width=144',
+  //     rating: '5.0',
+  //     reviewCount: '٣٢ تقييمات'
+  //   },
+  //   projectDetails: {
+  //     title: 'المواصفات',
+  //     specifications: [
+  //       { label: 'النوع', value: 'حديقة كبيرة متعددة الاستخدامات' },
+  //       { label: 'المساحة', value: '800 متر مربع' },
+  //       { label: 'الموقع', value: 'أبوظبي' },
+  //       { label: 'مدة التنفيذ', value: '8 أسابيع' },
+  //       { label: 'الدفع', value: 'على دفعتين' },
+  //       { label: 'المرافق', value: 'منطقة ألعاب، ممرات، إضاءة، نظام ري' }
+  //     ],
+  //     description: 'مشروع حديقة واسعة بمساحة كبيرة تشمل جميع المرافق الحديثة. تم تصميم الحديقة لتلبي احتياجات العائلات الكبيرة مع توفير مناطق متعددة الاستخدامات. يتضمن المشروع منطقة ألعاب للأطفال، منطقة جلوس عائلية، ممرات للمشي، وإضاءة LED موفرة للطاقة. نظام الدفع المرن على دفعتين يسهل على العملاء تنفيذ مشاريعهم.'
+  //   }
+  // },
+  // 'project-6': {
+  //   breadcrumb: {
+  //     items: [
+  //       { label: 'المشاريع', link: '/categories/projects', active: false },
+  //       { label: 'مشروع نخلة أريكا | 4 غرف', link: '#', active: true }
+  //     ]
+  //   },
+  //   imageGallery: {
+  //     mainImage: {
+  //       src: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4',
+  //       alt: 'مشروع نخلة أريكا متكامل'
+  //     },
+  //     thumbnails: [
+  //       { id: 1, src: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4', alt: 'مشروع نخلة 1' },
+  //       { id: 2, src: 'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574', alt: 'مشروع نخلة 2' }
+  //     ],
+  //     imageCount: 20
+  //   },
+  //   company: {
+  //     publishedDate: 'تم النشر: منذ 4 أيام',
+  //     projectTitle: 'مشروع نخلة أريكا | عمل حديقة بمساحة جيدة | 4 غرف نوم وحمامين',
+  //     companyName: 'شركة لتنسيق الحدائق المخصصة.',
+  //     companyLogo: 'https://api.builder.io/api/v1/image/assets/TEMP/ac255a85a30c3107b0be7335f83bf1c90e98a58d?width=144',
+  //     rating: '4.9',
+  //     reviewCount: '٢٤ تقييمات'
+  //   },
+  //   projectDetails: {
+  //     title: 'المواصفات',
+  //     specifications: [
+  //       { label: 'النوع', value: 'مشروع تنسيق حدائق فيلا فاخرة' },
+  //       { label: 'المساحة', value: '950 متر مربع' },
+  //       { label: 'الموقع', value: 'دبي' },
+  //       { label: 'مدة التنفيذ', value: '10 أسابيع' },
+  //       { label: 'عدد النخيل', value: '25 نخلة أريكا' },
+  //       { label: 'المميزات', value: 'حديقة خلفية وأمامية، نافورة، شلال صناعي' }
+  //     ],
+  //     description: 'مشروع تنسيق حدائق متكامل لفيلا فاخرة مكونة من 4 غرف نوم وحمامين. يشمل المشروع تصميم حديقة خلفية وأمامية بمساحة إجمالية تقارب 1000 متر مربع. تم استخدام 25 نخلة أريكا عالية الجودة موزعة بشكل استراتيجي. يتضمن المشروع نافورة مركزية، شلال صناعي، نظام إضاءة متطور، ومناطق جلوس متعددة. تنفيذ احترافي بأعلى معايير الجودة والفخامة.'
+  //   }
+  // }
 };
 
 // Default project data (fallback)

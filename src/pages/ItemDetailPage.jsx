@@ -147,7 +147,7 @@ function ItemDetailPage({ category }) {
             <h2 className="text-[#374151] font-poppins text-2xl font-medium leading-9">
               Related Items
             </h2>
-            <div className="flex items-start gap-4 self-stretch flex-wrap">
+            <div className="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {relatedItems.map((relatedItem) => (
                 <ListingCard
                   key={relatedItem.id}

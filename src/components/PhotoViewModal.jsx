@@ -41,13 +41,17 @@ const PhotoViewModal = ({ isOpen, onClose, images, title, companyName, initialIm
 
   return (
     <div 
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/24"
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/24"
       onClick={handleOverlayClick}
     >
       <div
-        className="w-[1120px] h-[648px] bg-white rounded-2xl p-6 flex flex-col gap-8"
+        className="w-[980px] max-w-[95vw] max-h-[90vh] overflow-y-auto bg-white rounded-3xl p-5 flex flex-col gap-6 no-scrollbar"
+        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         onClick={(e) => e.stopPropagation()}
       >
+        <style>{`
+          .no-scrollbar::-webkit-scrollbar { display: none; }
+        `}</style>
         {/* Header */}
         <div className="flex items-start gap-3 self-stretch">
           <div className="flex flex-col items-start gap-2 flex-1">
@@ -76,7 +80,7 @@ const PhotoViewModal = ({ isOpen, onClose, images, title, companyName, initialIm
             <img
               src={currentImage}
               alt={`${title} - Image ${currentImageIndex + 1}`}
-              className="w-[784px] h-[441px] object-cover"
+              className="w-[740px] h-[410px] object-cover"
             />
 
             {/* Image Counter Badge */}
@@ -99,18 +103,22 @@ const PhotoViewModal = ({ isOpen, onClose, images, title, companyName, initialIm
             </div>
 
             {/* Action Icons */}
-            <div className="absolute top-4 right-4 flex gap-2">
+            <div className="absolute top-4 right-4 flex gap-3">
               {/* Share Button */}
-              <button className="flex w-6 h-6 p-1.5 justify-center items-center gap-2 rounded-full border border-[#F3F4F6] bg-white shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] hover:bg-gray-50 transition-colors">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4.295 6.755L7.71 8.745M7.705 3.255L4.295 5.245M10.5 2.5C10.5 3.32843 9.82843 4 9 4C8.17157 4 7.5 3.32843 7.5 2.5C7.5 1.67157 8.17157 1 9 1C9.82843 1 10.5 1.67157 10.5 2.5ZM4.5 6C4.5 6.82843 3.82843 7.5 3 7.5C2.17157 7.5 1.5 6.82843 1.5 6C1.5 5.17157 2.17157 4.5 3 4.5C3.82843 4.5 4.5 5.17157 4.5 6ZM10.5 9.5C10.5 10.3284 9.82843 11 9 11C8.17157 11 7.5 10.3284 7.5 9.5C7.5 8.67157 8.17157 8 9 8C9.82843 8 10.5 8.67157 10.5 9.5Z" stroke="#6B7280" strokeLinecap="round" strokeLinejoin="round"/>
+              <button className="flex w-8 h-8 justify-center items-center rounded-full bg-white shadow-[0_2px_8px_rgba(0,0,0,0.12)] hover:bg-gray-50 transition-colors">
+                <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 6.5C15.3807 6.5 16.5 5.38071 16.5 4C16.5 2.61929 15.3807 1.5 14 1.5C12.6193 1.5 11.5 2.61929 11.5 4C11.5 5.38071 12.6193 6.5 14 6.5Z" stroke="#6B7280" strokeWidth="1.5"/>
+                  <path d="M6 12C7.38071 12 8.5 10.8807 8.5 9.5C8.5 8.11929 7.38071 7 6 7C4.61929 7 3.5 8.11929 3.5 9.5C3.5 10.8807 4.61929 12 6 12Z" stroke="#6B7280" strokeWidth="1.5"/>
+                  <path d="M14 18.5C15.3807 18.5 16.5 17.3807 16.5 16C16.5 14.6193 15.3807 13.5 14 13.5C12.6193 13.5 11.5 14.6193 11.5 16C11.5 17.3807 12.6193 18.5 14 18.5Z" stroke="#6B7280" strokeWidth="1.5"/>
+                  <path d="M8.2 10.4L11.8 13.1" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round"/>
+                  <path d="M11.8 6.9L8.2 9.6" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </button>
 
               {/* Favorite Button */}
-              <button className="flex w-6 h-6 p-1.5 justify-center items-center gap-2 rounded-full border border-[#F3F4F6] bg-white shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] hover:bg-gray-50 transition-colors">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10.4201 2.30591C10.1647 2.05041 9.86147 1.84774 9.52774 1.70945C9.19401 1.57117 8.8363 1.5 8.47506 1.5C8.11382 1.5 7.75611 1.57117 7.42238 1.70945C7.08865 1.84774 6.78544 2.05041 6.53006 2.30591L6.00006 2.83591L5.47006 2.30591C4.95421 1.79007 4.25458 1.50027 3.52506 1.50027C2.79554 1.50027 2.09591 1.79007 1.58006 2.30591C1.06421 2.82176 0.774414 3.5214 0.774414 4.25091C0.774414 4.98043 1.06421 5.68007 1.58006 6.19591L2.11006 6.72591L6.00006 10.6159L9.89006 6.72591L10.4201 6.19591C10.6756 5.94054 10.8782 5.63732 11.0165 5.30359C11.1548 4.96986 11.226 4.61216 11.226 4.25091C11.226 3.88967 11.1548 3.53196 11.0165 3.19824C10.8782 2.86451 10.6756 2.56129 10.4201 2.30591Z" fill="#D1D5DB"/>
+              <button className="flex w-8 h-8 justify-center items-center rounded-full bg-white shadow-[0_2px_8px_rgba(0,0,0,0.12)] hover:bg-gray-50 transition-colors">
+                <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 17.5L8.55 16.2C4.8 12.9 2.5 10.9 2.5 8.25C2.5 6.2 4.2 4.5 6.25 4.5C7.43 4.5 8.56 5.05 9.25 5.93C9.94 5.05 11.07 4.5 12.25 4.5C14.3 4.5 16 6.2 16 8.25C16 10.9 13.7 12.9 9.95 16.2L10 17.5Z" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
             </div>

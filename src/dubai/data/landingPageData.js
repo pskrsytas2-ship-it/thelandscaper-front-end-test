@@ -2,7 +2,7 @@
 // Extracted from Figma Design with Builder.io image URLs
 
 export const heroData = {
-  backgroundImage: 'https://api.builder.io/api/v1/image/assets/TEMP/9be3baed836ae26a3307735e9ec5487cb7fef27d',
+  backgroundImage: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770686403/BG_ycfujy.png',
   alt: 'Create your dream landscaping today!',
   title: 'أنشئ تنسيق الحدائق الذي تحلم به اليوم!',
   titleEn: 'Create your dream landscaping today!',
@@ -26,7 +26,7 @@ export const categoriesData = [
     items: [
       {
         id: 'project-1',
-        image: 'https://cdn.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=552',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698029/Frame_628862-45_s57m7l.jpg',
         title: 'الشامه',
         titleEn: 'Al Shamha',
         subtitle: '',
@@ -39,7 +39,7 @@ export const categoriesData = [
       },
       {
         id: 'project-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/46dc379ca3b835c7b62debfbba9664f327409d44',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698028/Frame_628862-44_hhsfka.jpg',
         title: 'منطقة مريحة | صيانة جيدة | عمل حديقة.',
         titleEn: 'Accessible Area | Well Maintained | garden work',
         subtitle: '',
@@ -52,7 +52,7 @@ export const categoriesData = [
       },
       {
         id: 'project-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698021/Frame_628862-43_vvgyni.jpg',
         title: 'نخلة أريكا صفقة رائعة | موقع متميز | إطلالة مذهلة | 1 غرفة نوم وحمام.',
         titleEn: 'Areca palm Great Deal | Prime location | Amazing View | 1 BHK',
         subtitle: '',
@@ -65,7 +65,7 @@ export const categoriesData = [
       },
       {
         id: 'project-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697857/Frame_628862-50_apvddg.jpg',
         title: 'تنسيق الحدائق المصغرة.',
         titleEn: 'Miniature landscaping',
         subtitle: '',
@@ -78,7 +78,7 @@ export const categoriesData = [
       },
       {
         id: 'project-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/18726854b4b33d33ef16f6a4136c5d7cf8779460',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698010/Frame_628862-41_qebjk7.jpg',
         title: 'عمل حديقة بمساحة جيدة | مرافق ممتازة | دفعتين',
         titleEn: 'GOOD SIZE Garden work | TOP NOTCH FACILITIES | 2 PAYMENTS',
         subtitle: '',
@@ -89,19 +89,19 @@ export const categoriesData = [
         priceUnitEn: '',
         favorite: false
       },
-      {
-        id: 'project-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4',
-        title: 'مشروع نخلة أريكا | عمل حديقة بمساحة جيدة | 4 غرف نوم وحمامين',
-        titleEn: 'Areca palm project | GOOD SIZE garden work | 4 BHK',
-        subtitle: '',
-        location: 'شركة  لتنسيق الحدائق المخصصة.',
-        locationEn: 'Lifescape Custom Landscaping Inc.',
-        price: '',
-        priceUnit: '',
-        priceUnitEn: '',
-        favorite: false
-      }
+      // {
+      //   id: 'project-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4',
+      //   title: 'مشروع نخلة أريكا | عمل حديقة بمساحة جيدة | 4 غرف نوم وحمامين',
+      //   titleEn: 'Areca palm project | GOOD SIZE garden work | 4 BHK',
+      //   subtitle: '',
+      //   location: 'شركة  لتنسيق الحدائق المخصصة.',
+      //   locationEn: 'Lifescape Custom Landscaping Inc.',
+      //   price: '',
+      //   priceUnit: '',
+      //   priceUnitEn: '',
+      //   favorite: false
+      // }
     ]
   },
   {
@@ -113,7 +113,7 @@ export const categoriesData = [
     items: [
       {
         id: 'machinery-rent-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/b2e30b069b6239dbd46ae0d3cc1fcbb318fcc25b',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698006/Frame_628862-39_skl9wt.jpg',
         title: 'محملات صغيرة',
         titleEn: 'Mini Loaders',
         subtitle: '',
@@ -126,7 +126,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-rent-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/263ed740a153be7cb68abc426c38a9b94ddecf5c',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697999/Frame_628862-38_y0ljok.jpg',
         title: 'جرارات مع ملحقات',
         titleEn: 'Tractors with attachments',
         subtitle: '',
@@ -139,7 +139,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-rent-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/c3e9f38018a410fbd0b878cf0e395ae7a6ea1a33',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697993/Frame_628862-37_ggf91q.jpg',
         title: 'جرار حقل',
         titleEn: 'Field tractor',
         subtitle: '',
@@ -152,7 +152,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-rent-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/663a4773f1418504148f217208a44b7b8e1cb36d',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697989/Frame_628862-36_uhygiz.jpg',
         title: 'حفار جي سي بي',
         titleEn: 'JCB',
         subtitle: '',
@@ -165,7 +165,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-rent-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/b5043f861c44a52c80692370ef27abe3f851b930',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697986/Frame_628862-35_sbavno.jpg',
         title: 'جامع الذرة',
         titleEn: 'Corn collector',
         subtitle: '',
@@ -176,19 +176,19 @@ export const categoriesData = [
         priceUnitEn: '/ Month',
         favorite: false
       },
-      {
-        id: 'machinery-rent-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
-        title: 'قطع الأشجار',
-        titleEn: 'Tree cutting',
-        subtitle: '',
-        location: 'الشامخة',
-        locationEn: 'Al Shamkha',
-        price: '670',
-        priceUnit: '/ يوم',
-        priceUnitEn: '/ Day',
-        favorite: false
-      }
+      // {
+      //   id: 'machinery-rent-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
+      //   title: 'قطع الأشجار',
+      //   titleEn: 'Tree cutting',
+      //   subtitle: '',
+      //   location: 'الشامخة',
+      //   locationEn: 'Al Shamkha',
+      //   price: '670',
+      //   priceUnit: '/ يوم',
+      //   priceUnitEn: '/ Day',
+      //   favorite: false
+      // }
     ]
   },
   {
@@ -200,7 +200,7 @@ export const categoriesData = [
     items: [
       {
         id: 'machinery-sale-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/806d9d4f22c807a56a400f82bbb4df2960a331d3',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697983/Frame_628862-33_j8gt2g.jpg',
         title: 'محمل ثقيل',
         titleEn: 'Heavy loader',
         subtitle: '',
@@ -213,7 +213,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-sale-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/50653b4a556487a3053d07edc59256870a76c994',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697980/Frame_628862-32_w06mve.jpg',
         title: 'شاحنة مع ملحقات',
         titleEn: 'Van with attachments',
         subtitle: '',
@@ -226,7 +226,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-sale-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/7b2122987367db26421f3580a24942226803a4ba',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697977/Frame_628862-31_q8zael.jpg',
         title: 'شاحنة عرض',
         titleEn: 'Display truck',
         subtitle: '',
@@ -239,7 +239,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-sale-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/52b1979003babd43256874ca409656be107af377',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697974/Frame_628862-30_qpf9cp.jpg',
         title: 'محمل',
         titleEn: 'Loader',
         subtitle: '',
@@ -252,7 +252,7 @@ export const categoriesData = [
       },
       {
         id: 'machinery-sale-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/9161cc746b2d9c391f2609268c2ccdff04c70b4a',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697971/Frame_628862-29_ej0ar7.jpg',
         title: 'محمل صغير',
         titleEn: 'Mini loader',
         subtitle: '',
@@ -263,19 +263,19 @@ export const categoriesData = [
         priceUnitEn: '',
         favorite: false
       },
-      {
-        id: 'machinery-sale-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
-        title: 'رشاش بكرة',
-        titleEn: 'Sprayer roller',
-        subtitle: '',
-        location: 'الشامخة',
-        locationEn: 'Al Shamkha',
-        price: '200,670',
-        priceUnit: '',
-        priceUnitEn: '',
-        favorite: false
-      }
+      // {
+      //   id: 'machinery-sale-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
+      //   title: 'رشاش بكرة',
+      //   titleEn: 'Sprayer roller',
+      //   subtitle: '',
+      //   location: 'الشامخة',
+      //   locationEn: 'Al Shamkha',
+      //   price: '200,670',
+      //   priceUnit: '',
+      //   priceUnitEn: '',
+      //   favorite: false
+      // }
     ]
   },
   {
@@ -287,7 +287,7 @@ export const categoriesData = [
     items: [
       {
         id: 'tool-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/95a48899de615c3e8680847347351acf40bbabcf',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697963/Frame_628862-26_lh1amr.jpg',
         title: 'أداة إزالة الأعشاب',
         titleEn: 'Weeder',
         subtitle: '',
@@ -300,7 +300,7 @@ export const categoriesData = [
       },
       {
         id: 'tool-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/36bdea3529666a15ceedb42388e4403cfe370903',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697962/Frame_628862-25_zrfolv.jpg',
         title: 'مجرفة يدوية',
         titleEn: 'Hand trowel',
         subtitle: '',
@@ -313,7 +313,7 @@ export const categoriesData = [
       },
       {
         id: 'tool-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/689b9210bc339e536667043f556c03aad239aefc',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697861/Frame_628862-52_akseas.jpg',
         title: 'شوكة الحديقة',
         titleEn: 'Garden fork',
         subtitle: '',
@@ -326,7 +326,7 @@ export const categoriesData = [
       },
       {
         id: 'tool-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/3b34dfc3336e4aacf8e4878a3eeb4d20a1227b81',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697859/Frame_628862-51_bxppyb.jpg',
         title: 'مقص التقليم',
         titleEn: 'Pruning shears',
         subtitle: '',
@@ -339,7 +339,7 @@ export const categoriesData = [
       },
       {
         id: 'tool-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/4ce7d10c7236c50420ff427c1e3f959a22dae163',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697854/Frame_628862-49_zpb6cw.jpg',
         title: 'أداة زراعة البذور',
         titleEn: 'Seed dibber',
         subtitle: '',
@@ -350,19 +350,19 @@ export const categoriesData = [
         priceUnitEn: '',
         favorite: false
       },
-      {
-        id: 'tool-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
-        title: 'آلة الحرث',
-        titleEn: 'Cultivator',
-        subtitle: '',
-        location: 'الشامخة',
-        locationEn: 'Al Shamkha',
-        price: '670',
-        priceUnit: '',
-        priceUnitEn: '',
-        favorite: false
-      }
+      // {
+      //   id: 'tool-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
+      //   title: 'آلة الحرث',
+      //   titleEn: 'Cultivator',
+      //   subtitle: '',
+      //   location: 'الشامخة',
+      //   locationEn: 'Al Shamkha',
+      //   price: '670',
+      //   priceUnit: '',
+      //   priceUnitEn: '',
+      //   favorite: false
+      // }
     ]
   },
   {
@@ -374,7 +374,7 @@ export const categoriesData = [
     items: [
       {
         id: 'tree-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/b9a90a6de611c594b23d352d9522460a2c2c8104',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698020/Frame_628862-42_qmtil2.jpg',
         title: 'نبات الأفعى',
         titleEn: 'Snake plant',
         subtitle: '',
@@ -387,7 +387,7 @@ export const categoriesData = [
       },
       {
         id: 'tree-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/19ac3af87c5d9538edd7ea7f17ab73028667b44e',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697957/Frame_628862-23_obuuhp.jpg',
         title: 'نبات الأوراق الحمراء',
         titleEn: 'Red leaf plant',
         subtitle: '',
@@ -400,7 +400,7 @@ export const categoriesData = [
       },
       {
         id: 'tree-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/152cc0a6ebba88a4e5b69bf0509b18732ed27c39',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697954/Frame_628862-22_npz8jj.jpg',
         title: 'نبات النيم',
         titleEn: 'Neem plant',
         subtitle: '',
@@ -413,7 +413,7 @@ export const categoriesData = [
       },
       {
         id: 'tree-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/c7077d162f6bc35e67a422291815a5c3e13445f8',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697951/Frame_628862-21_hdjywm.jpg',
         title: 'نبات أوراق الزنبق',
         titleEn: 'Lilly leaf plant',
         subtitle: '',
@@ -439,7 +439,7 @@ export const categoriesData = [
       },
       {
         id: 'tree-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697949/Frame_628862-20_dqorhl.jpg',
         title: 'نبات العنكبوت مع الوعاء',
         titleEn: 'Spider Plant with pot',
         subtitle: '',
@@ -461,7 +461,7 @@ export const categoriesData = [
     items: [
       {
         id: 'fertilizer-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/48a2566cfa4b689f83fc36574b82c89afe933e41',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697852/Frame_628862-47_vplss0.jpg',
         title: 'النيتروجين',
         titleEn: 'Nitrogenous',
         subtitle: '',
@@ -474,7 +474,7 @@ export const categoriesData = [
       },
       {
         id: 'fertilizer-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/f23c89a9faff2bfa969e0de3d2ca25cf5bed40a7',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697854/Frame_628862-48_qs5emj.jpg',
         title: 'الفوسفات',
         titleEn: 'Phosphate',
         subtitle: '',
@@ -487,7 +487,7 @@ export const categoriesData = [
       },
       {
         id: 'fertilizer-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/5f1fb7971f3e419941274052fa13b451006868a8',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697865/Frame_628862-54_bbmkln.jpg',
         title: 'العناصر الصغرى',
         titleEn: 'Micronutrient',
         subtitle: '',
@@ -500,7 +500,7 @@ export const categoriesData = [
       },
       {
         id: 'fertilizer-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/7914a20319f2aafbabefb3a84d0092e6188f8c8f',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697946/Frame_628862-18_rwdk5r.jpg',
         title: 'اليوريا',
         titleEn: 'Urea',
         subtitle: '',
@@ -513,7 +513,7 @@ export const categoriesData = [
       },
       {
         id: 'fertilizer-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/870e6f5f47b4dc9c329810b54d998be4540db0d2',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770697940/Frame_628862-16_us7xu1.jpg',
         title: 'نترات الأمونيوم',
         titleEn: 'Ammonium nitrate',
         subtitle: '',
@@ -524,19 +524,19 @@ export const categoriesData = [
         priceUnitEn: '/ Kg',
         favorite: false
       },
-      {
-        id: 'fertilizer-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
-        title: 'البوتاسيوم',
-        titleEn: 'Potassium',
-        subtitle: '',
-        location: 'الشامخة',
-        locationEn: 'Al Shamkha',
-        price: '220',
-        priceUnit: '/ كجم',
-        priceUnitEn: '/ Kg',
-        favorite: false
-      }
+      // {
+      //   id: 'fertilizer-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f',
+      //   title: 'البوتاسيوم',
+      //   titleEn: 'Potassium',
+      //   subtitle: '',
+      //   location: 'الشامخة',
+      //   locationEn: 'Al Shamkha',
+      //   price: '220',
+      //   priceUnit: '/ كجم',
+      //   priceUnitEn: '/ Kg',
+      //   favorite: false
+      // }
     ]
   },
   {
@@ -548,15 +548,14 @@ export const categoriesData = [
     items: [
       {
         id: 'forum-1',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/cd71af43bcdd782289d53cc2a8461e91b4743ee1?width=238',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/Rectangle_16_jn34ma.jpg',
         images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/cd71af43bcdd782289d53cc2a8461e91b4743ee1?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/18726854b4b33d33ef16f6a4136c5d7cf8779460?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=238',
+         'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701157/Frame_628862-3_pxcyeu.jpg',
+      'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701161/Rectangle_25_aweb3h.jpg',
+      'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701160/Rectangle_23_xanbqo.jpg',
+    'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701158/Rectangle_22_fzr2ap.jpg',
+  'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701155/Frame_628862-2_jwa8fj.jpg',
+'https://res.cloudinary.com/drhwchhsp/image/upload/v1770701155/Frame_628862-1_sniayx.jpg'
         ],
         title: 'كيفية زراعة نبات المال؟',
         titleEn: 'How to grow money plan?',
@@ -568,11 +567,9 @@ export const categoriesData = [
       },
       {
         id: 'forum-2',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/c0accebc9a26e7886777400f497244fe93e741ef?width=237',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698035/image_58_eiihxb.jpg',
         images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/c0accebc9a26e7886777400f497244fe93e741ef?width=237',
-          'https://api.builder.io/api/v1/image/assets/TEMP/18726854b4b33d33ef16f6a4136c5d7cf8779460?width=237',
-          'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3?width=237',
+          'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/tree_pathway_gn7awg.jpg','https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/Rectangle_16_jn34ma.jpg'
         ],
         title: 'شجرة المانجو الخاصة بي تموت، كيف أنقذها؟',
         titleEn: 'My mango tree is dying, how to save it?',
@@ -584,11 +581,9 @@ export const categoriesData = [
       },
       {
         id: 'forum-3',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/60b5fea5ac6f7ae48243fe3a9b20154d4aed0640?width=238',
+        image: 'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/tree_pathway_gn7awg.jpg',
         images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/60b5fea5ac6f7ae48243fe3a9b20154d4aed0640?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/e30d075912c99f1ac50a0bdb15f2443ee8442ec3?width=238',
+          'https://res.cloudinary.com/drhwchhsp/image/upload/v1770698035/image_58_eiihxb.jpg','https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/tree_pathway_gn7awg.jpg','https://res.cloudinary.com/drhwchhsp/image/upload/v1770698041/Rectangle_16_jn34ma.jpg'
         ],
         title: 'ما هي الآفات والأمراض الشائعة التي يمكن أن تؤثر على الأشجار في منطقتك، وكيف يمكنك منعها؟',
         titleEn: 'What are common pests and diseases that can affect trees in your area, and how can you prevent them?',
@@ -598,54 +593,54 @@ export const categoriesData = [
         timeAgoEn: '1day ago',
         commentCount: 56,
       },
-      {
-        id: 'forum-4',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/1ae32a2abee0a835e2cc1931001cd2d656ec4663?width=236',
-        images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/1ae32a2abee0a835e2cc1931001cd2d656ec4663?width=236',
-          'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574?width=236',
-          'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=236',
-        ],
-        title: 'هل يمكنني المشاركة في مبادرات زراعة الأشجار المجتمعية؟',
-        titleEn: 'Can I get involved in community tree planting initiatives?',
-        author: 'محمد ياسر',
-        authorEn: 'Mohammed Yasir',
-        timeAgo: 'منذ 3 أيام',
-        timeAgoEn: '3 day ago',
-        commentCount: 83,
-      },
-      {
-        id: 'forum-5',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=238',
-        images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4?width=238',
-        ],
-        title: 'اختيار أشجار النخيل المناسبة لممتلكاتك',
-        titleEn: 'Choosing the right palm trees for your property',
-        author: 'خبراء تنسيق الحدائق',
-        authorEn: 'Landscaping Masters',
-        timeAgo: 'منذ 5 أيام',
-        timeAgoEn: '5 days ago',
-        commentCount: 76,
-      },
-      {
-        id: 'forum-6',
-        image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=238',
-        images: [
-          'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/152cc0a6ebba88a4e5b69bf0509b18732ed27c39?width=238',
-          'https://api.builder.io/api/v1/image/assets/TEMP/d97cce6e2d158a290e96fd0eaa4863d5758849e0?width=238',
-        ],
-        title: 'تركيب نظام الري - الأعمال اليدوية مقابل الاحترافي',
-        titleEn: 'Irrigation system installation - DIY vs Professional',
-        author: 'بستانيو الإمارات',
-        authorEn: 'UAE Gardeners',
-        timeAgo: 'منذ أسبوع',
-        timeAgoEn: '1 week ago',
-        commentCount: 102,
-      }
+      // {
+      //   id: 'forum-4',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/1ae32a2abee0a835e2cc1931001cd2d656ec4663?width=236',
+      //   images: [
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/1ae32a2abee0a835e2cc1931001cd2d656ec4663?width=236',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574?width=236',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=236',
+      //   ],
+      //   title: 'هل يمكنني المشاركة في مبادرات زراعة الأشجار المجتمعية؟',
+      //   titleEn: 'Can I get involved in community tree planting initiatives?',
+      //   author: 'محمد ياسر',
+      //   authorEn: 'Mohammed Yasir',
+      //   timeAgo: 'منذ 3 أيام',
+      //   timeAgoEn: '3 day ago',
+      //   commentCount: 83,
+      // },
+      // {
+      //   id: 'forum-5',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=238',
+      //   images: [
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/05ef63691745cee167060ca79a5f07467902372c?width=238',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/3f09c6eba88ef2566ca56f9e3fb9b4b197908574?width=238',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/71272703a3c453c6f5af3240fc96a41ec82d86b4?width=238',
+      //   ],
+      //   title: 'اختيار أشجار النخيل المناسبة لممتلكاتك',
+      //   titleEn: 'Choosing the right palm trees for your property',
+      //   author: 'خبراء تنسيق الحدائق',
+      //   authorEn: 'Landscaping Masters',
+      //   timeAgo: 'منذ 5 أيام',
+      //   timeAgoEn: '5 days ago',
+      //   commentCount: 76,
+      // },
+      // {
+      //   id: 'forum-6',
+      //   image: 'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=238',
+      //   images: [
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=238',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/152cc0a6ebba88a4e5b69bf0509b18732ed27c39?width=238',
+      //     'https://api.builder.io/api/v1/image/assets/TEMP/d97cce6e2d158a290e96fd0eaa4863d5758849e0?width=238',
+      //   ],
+      //   title: 'تركيب نظام الري - الأعمال اليدوية مقابل الاحترافي',
+      //   titleEn: 'Irrigation system installation - DIY vs Professional',
+      //   author: 'بستانيو الإمارات',
+      //   authorEn: 'UAE Gardeners',
+      //   timeAgo: 'منذ أسبوع',
+      //   timeAgoEn: '1 week ago',
+      //   commentCount: 102,
+      // }
     ]
   }
 ];

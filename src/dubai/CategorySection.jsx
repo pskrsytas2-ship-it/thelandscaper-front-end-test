@@ -4,15 +4,15 @@ import ForumCard from './ForumCard';
 
 const CategorySection = ({ title, icon, items, viewAllLink, categoryId, onListingClick }) => {
   const isForum = categoryId === 'forum';
-  const itemsToShow = isForum ? 3 : 5;
-  const gridCols = isForum ? 'lg:grid-cols-3' : 'lg:grid-cols-5';
+  const itemsToShow = isForum ? 3 : 4;
+  const gridCols = isForum ? 'lg:grid-cols-3' : 'lg:grid-cols-4';
 
   return (
     <div className="flex w-full max-w-[1200px] px-6 flex-col items-end gap-6">
       {/* Section Header */}
       
       <div className="flex flex-row-reverse justify-end items-center gap-2 self-stretch">
-        <div className="text-[#0C7A1F] text-right font-['Dubai'] text-sm font-bold leading-5 cursor-pointer hover:underline">
+        <div className="text-[#3B82F6] text-right font-['Dubai'] text-sm font-bold leading-5 cursor-pointer hover:underline">
           عرض الكل
         </div>
         <div className="flex-1 overflow-hidden text-[#374151] text-right font-['Dubai'] text-base font-medium line-clamp-1">

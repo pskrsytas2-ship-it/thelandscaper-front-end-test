@@ -28,8 +28,10 @@ const LandingPage = () => {
     // Navigate to Dubai project detail page for projects section
     if (categoryId === 'projects') {
       navigate('/dubai/project-detail', { state: { projectId: listingId } });
+    } else if (categoryId === 'forum') {
+      return;
     } else {
-      navigate(`/listing/${listingId}`);
+      navigate(`/dubai/items/${categoryId}/${listingId}`);
     }
   };
 

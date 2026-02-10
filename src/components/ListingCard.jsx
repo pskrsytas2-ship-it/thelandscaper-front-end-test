@@ -96,17 +96,20 @@ const ListingCard = ({
 
         {/* Favorite Button */}
         {showFavorite && (
-          <button 
+          <button
             onClick={(e) => {
               e.stopPropagation();
               setIsFavorited(!isFavorited);
             }}
-            className="absolute right-2 top-2 flex items-center justify-center w-5 h-5 p-1.5 rounded-full border border-grey-40 bg-white hover:bg-grey-30 transition-colors"
+            className="absolute right-2 top-2 flex items-center justify-center w-6 h-6 bg-transparent"
+            aria-label="Favorite"
           >
-            <svg className="w-3 h-3" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path 
-                d="M10.4201 2.30591C10.1647 2.05041 9.86147 1.84774 9.52774 1.70945C9.19401 1.57117 8.8363 1.5 8.47506 1.5C8.11382 1.5 7.75611 1.57117 7.42238 1.70945C7.08865 1.84774 6.78544 2.05041 6.53006 2.30591L6.00006 2.83591L5.47006 2.30591C4.95421 1.79007 4.25458 1.50027 3.52506 1.50027C2.79554 1.50027 2.09591 1.79007 1.58006 2.30591C1.06421 2.82176 0.774414 3.5214 0.774414 4.25091C0.774414 4.98043 1.06421 5.68007 1.58006 6.19591L2.11006 6.72591L6.00006 10.6159L9.89006 6.72591L10.4201 6.19591C10.6756 5.94054 10.8782 5.63732 11.0165 5.30359C11.1548 4.96986 11.226 4.61216 11.226 4.25091C11.226 3.88967 11.1548 3.53196 11.0165 3.19824C10.8782 2.86451 10.6756 2.56129 10.4201 2.30591Z" 
-                fill={isFavorited ? "#0C7A1F" : "#D1D5DB"}
+            <svg className="w-4 h-4" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M10.4201 2.30591C10.1647 2.05041 9.86147 1.84774 9.52774 1.70945C9.19401 1.57117 8.8363 1.5 8.47506 1.5C8.11382 1.5 7.75611 1.57117 7.42238 1.70945C7.08865 1.84774 6.78544 2.05041 6.53006 2.30591L6.00006 2.83591L5.47006 2.30591C4.95421 1.79007 4.25458 1.50027 3.52506 1.50027C2.79554 1.50027 2.09591 1.79007 1.58006 2.30591C1.06421 2.82176 0.774414 3.5214 0.774414 4.25091C0.774414 4.98043 1.06421 5.68007 1.58006 6.19591L2.11006 6.72591L6.00006 10.6159L9.89006 6.72591L10.4201 6.19591C10.6756 5.94054 10.8782 5.63732 11.0165 5.30359C11.1548 4.96986 11.226 4.61216 11.226 4.25091C11.226 3.88967 11.1548 3.53196 11.0165 3.19824C10.8782 2.86451 10.6756 2.56129 10.4201 2.30591Z"
+                stroke="#FFFFFF"
+                strokeWidth="1"
+                fill={isFavorited ? "rgba(255,255,255,0.15)" : "none"}
               />
             </svg>
           </button>
@@ -134,7 +137,7 @@ const ListingCard = ({
           {/* Price */}
           {price && (
             <div className="flex items-center gap-1 mt-2">
-              <span className="text-sm font-semibold text-[#0C7A1F]">{price}</span>
+              <span className="text-sm font-semibold text-[#111827]">{price}</span>
               {priceSuffix && (
                 <span className="text-[10px] font-medium text-[#9E9E9E] line-clamp-1">
                   {priceSuffix}

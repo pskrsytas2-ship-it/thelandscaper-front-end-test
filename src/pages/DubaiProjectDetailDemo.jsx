@@ -17,6 +17,7 @@ function DubaiProjectDetailDemo() {
         imageGalleryData={currentProjectData.imageGallery}
         companyData={currentProjectData.company}
         projectDetails={currentProjectData.projectDetails}
+        projectId={projectId}
       />
     </div>
   );

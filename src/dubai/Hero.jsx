@@ -11,28 +11,42 @@ const Hero = ({
   citiesLabel
 }) => {
   const heroBg =
-    'https://cdn.builder.io/api/v1/image/assets%2Fcdb7c934efe041d78ab29729729dc83e%2F583721f8f25842378016b409568ed9fe';
+    'https://res.cloudinary.com/drhwchhsp/image/upload/v1770686403/BG_ycfujy.png';
 
   return (
     <div
-      className="w-full flex justify-center items-start bg-[#0C7A1F] bg-no-repeat bg-center bg-cover relative overflow-hidden"
+      className="w-full flex justify-center items-start bg-[#0F8F28] bg-no-repeat bg-center bg-cover relative overflow-hidden rounded-[16px]"
       style={{
-        backgroundImage: `linear-gradient(rgba(12,122,31,0.55), rgba(12,122,31,0.55)), url(${heroBg})`,
+        padding: '20px 20px 4px',
+        margin: '16px auto 4px',
+        maxWidth: '1140px',
+        minHeight: '175px'
       }}
     >
-      <div className="w-full max-w-[1440px] flex flex-col justify-center items-start gap-4 py-8 px-[120px] relative">
+      <div className="absolute inset-0 rounded-[16px] overflow-hidden bg-[#0C7A1F]" aria-hidden="true">
+        <img
+          src={heroBg}
+          alt=""
+          className="w-full h-full object-cover absolute top-0 left-0"
+          style={{
+            opacity: 0.85,
+            filter: 'contrast(1.04) brightness(1.24) saturate(1.04)'
+          }}
+        />
+      </div>
+      <div className="w-full flex flex-col justify-center items-center gap-4 relative">
         {/* Background decorative pattern placeholder */}
         <div className="absolute inset-0 w-full h-full opacity-100 pointer-events-none" />
 
         {/* Main Heading */}
         <div className="w-full flex justify-center items-center gap-2 px-[22px] pb-4 relative z-10">
-          <h1 className="text-white text-right font-['Dubai'] text-[30px] font-bold leading-normal">
+          <h1 className="text-white text-right font-['Dubai'] text-[22px] font-bold leading-normal">
             {title || 'أنشئ تنسيق الحدائق الذي تحلم به اليوم!'}
           </h1>
         </div>
 
         {/* Search Bar - RTL Layout */}
-        <div className="w-full max-w-[1200px] flex justify-center items-center px-6 relative z-10 shadow-[0_32px_64px_-12px_rgba(16,24,40,0.14)]">
+        <div className="w-full max-w-[1000px] flex justify-center items-center relative z-10 bg-white rounded-[12px] overflow-hidden shadow-[0_18px_36px_-16px_rgba(16,24,40,0.25)]">
           <div className="flex w-full items-stretch" dir="rtl">
             {/* Cities Dropdown - Rightmost in RTL */}
             <div className="flex px-4 py-2.5 justify-center items-center gap-3 rounded-r-lg border border-[rgba(12,122,31,0.15)] bg-white">

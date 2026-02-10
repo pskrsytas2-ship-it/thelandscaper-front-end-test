@@ -15,10 +15,10 @@ const ImageGallery = ({ images, totalCount = 11, title, companyName }) => {
 
   return (
     <>
-      <div className="flex items-start gap-4 self-stretch">
+      <div className="flex items-start gap-4 self-stretch overflow-hidden">
         {/* Main Large Image */}
         <div
-          className="relative w-[768px] h-[432px] cursor-pointer"
+          className="relative flex-1 min-w-0 h-[432px] cursor-pointer"
           onClick={() => handleImageClick(0)}
         >
           <img
@@ -29,28 +29,28 @@ const ImageGallery = ({ images, totalCount = 11, title, companyName }) => {
         </div>
 
         {/* Right Side: 2 Stacked Images */}
-        <div className="flex flex-col items-start gap-4 flex-1 self-stretch">
+        <div className="flex flex-col items-start gap-4 w-[360px] flex-shrink-0">
           {/* Top Right Image */}
           <div
-            className="relative flex-1 self-stretch cursor-pointer"
+            className="relative w-full h-[208px] overflow-hidden rounded-lg cursor-pointer"
             onClick={() => handleImageClick(1)}
           >
             <img
               src={images[1]}
               alt="Project view 2"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover"
             />
           </div>
 
           {/* Bottom Right Image */}
           <div
-            className="relative flex-1 self-stretch cursor-pointer"
+            className="relative w-full h-[208px] overflow-hidden rounded-lg cursor-pointer"
             onClick={() => handleImageClick(2)}
           >
             <img
               src={images[2]}
               alt="Project view 3"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover"
             />
 
             {/* Image Count Badge */}

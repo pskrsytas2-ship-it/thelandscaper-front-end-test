@@ -2,16 +2,16 @@ import React from 'react';
 
 const ImageGallery = ({ mainImage, thumbnails, imageCount }) => {
   return (
-    <div className="flex flex-col items-start gap-6 self-stretch">
-      <div className="flex items-start gap-4 self-stretch">
+    <div className="flex flex-col items-start gap-6 self-stretch w-full overflow-hidden">
+      <div className="flex items-start gap-4 self-stretch w-full overflow-hidden">
         {/* Thumbnail Column */}
-        <div className="flex flex-col items-start gap-4 flex-1 self-stretch">
+        <div className="flex flex-col items-start gap-4 w-[360px] flex-shrink-0">
           {thumbnails?.slice(0, 2).map((thumb, index) => (
-            <div key={index} className="flex-1 self-stretch relative">
+            <div key={index} className="relative w-full h-[208px] overflow-hidden rounded-lg">
               <img
                 src={thumb.src || thumb}
                 alt={thumb.alt || `Thumbnail ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full object-cover"
               />
               {/* Image Count Badge - only show on second thumbnail */}
               {index === 1 && imageCount && (
@@ -41,7 +41,7 @@ const ImageGallery = ({ mainImage, thumbnails, imageCount }) => {
         <img
           src={mainImage?.src || mainImage}
           alt={mainImage?.alt || "Main"}
-          className="w-[768px] h-[432px] aspect-[16/9] object-cover rounded-lg"
+          className="flex-1 min-w-0 h-[432px] object-cover rounded-lg"
         />
       </div>
     </div>

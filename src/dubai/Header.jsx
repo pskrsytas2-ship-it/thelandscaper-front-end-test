@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Header = ({ showBorder = true }) => {
   return (
-    <div className={`w-full flex flex-col items-end ${showBorder ? 'border-b border-[#D1D5DB]' : ''}`}>
+    <div className="w-full flex flex-col items-end">
       {/* Top Bar */}
       <div className="w-full h-16 flex justify-center items-center bg-[#E7F2E9]">
         <div
@@ -10,45 +10,40 @@ const Header = ({ showBorder = true }) => {
           dir="ltr"
         >
           <div className="flex flex-row-reverse items-center gap-4">
-            <button className="px-1 py-1 flex items-center">
+            <Link to="/" className="px-1 py-1 flex items-center">
               <div className="flex items-center gap-2">
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                  <g clipPath="url(#clip0_4082_1603)">
-                    <path
-                      d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z"
-                      fill="#F0F0F0"
-                    />
-                    <path
-                      d="M5.08691 12.1289L5.86953 17.4388C6.84448 17.8006 7.89906 17.9985 8.99995 17.9985C12.8696 17.9985 16.1685 15.5561 17.4401 12.1289H5.08691Z"
-                      fill="black"
-                    />
-                    <path
-                      d="M5.08691 5.86958L5.86953 0.559723C6.84448 0.19793 7.89906 0 8.99995 0C12.8696 0 16.1685 2.44237 17.4401 5.86958H5.08691Z"
-                      fill="#6DA544"
-                    />
-                    <path
-                      d="M0.000488281 8.9988C0.000488281 12.8685 2.4429 16.1674 5.87007 17.439V0.558594C2.4429 1.83023 0.000488281 5.12912 0.000488281 8.9988Z"
-                      fill="#A2001D"
-                    />
-                  </g>
-                </svg>
-                <span
-                  className="text-[rgba(0,0,0,0.6)] font-['Dubai'] text-[13px] font-medium"
-                  dir="rtl"
-                >
-                  عربي
-                </span>
+              <svg className="w-[18px] h-[18px] rounded-full" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="18" cy="18" r="18" fill="#00247D" />
+                <path d="M4 6l10 6v-4l-6-4zM32 6l-10 6v-4l6-4zM4 30l10-6v4l-6 4zM32 30l-10-6v4l6-4z" fill="#FFFFFF"/>
+                <path d="M0 12h36v12H0z" fill="#FFFFFF"/>
+                <path d="M12 0h12v36H12z" fill="#FFFFFF"/>
+                <path d="M0 14h36v8H0z" fill="#CF142B"/>
+                <path d="M14 0h8v36h-8z" fill="#CF142B"/>
+                <path d="M5 7l9 5H9L3 8zM31 7l-9 5h5l6-4zM5 29l9-5H9l-6 4zM31 29l-9-5h5l6 4z" fill="#CF142B"/>
+              </svg>
+              <span className="text-[13px] font-medium text-[rgba(0,0,0,0.6)]">English</span>
               </div>
-            </button>
+            </Link>
 
             <div className="w-px h-6 bg-[#D9D9D9]" />
 
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-              <path
-                d="M9 16.3125C9.825 16.3125 10.5 15.6375 10.5 14.8125H7.5C7.5 15.6375 8.1675 16.3125 9 16.3125ZM13.5 11.8125V8.0625C13.5 5.76 12.27 3.8325 10.125 3.3225V2.8125C10.125 2.19 9.6225 1.6875 9 1.6875C8.3775 1.6875 7.875 2.19 7.875 2.8125V3.3225C5.7225 3.8325 4.5 5.7525 4.5 8.0625V11.8125L3 13.3125V14.0625H15V13.3125L13.5 11.8125Z"
-                fill="#6B7280"
-              />
-            </svg>
+            <div className="w-9 h-9 rounded-[6px] bg-[#E7F2E9] flex items-center justify-center">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path
+                  d="M15.5 14.5H4.5L5.8 12.8V8.9C5.8 6.2 7.6 4.1 10 4.1C12.4 4.1 14.2 6.2 14.2 8.9V12.8L15.5 14.5Z"
+                  stroke="#F97316"
+                  strokeWidth="1.6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M8.7 16C8.9 16.8 9.4 17.2 10 17.2C10.6 17.2 11.1 16.8 11.3 16"
+                  stroke="#F97316"
+                  strokeWidth="1.6"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </div>
 
             <button className="px-2 py-1 flex items-center">
               <span
@@ -147,7 +142,7 @@ const Header = ({ showBorder = true }) => {
 };
 
 const NavItem = ({ icon, label }) => (
-  <div className="flex flex-row-reverse items-center gap-2 px-[14px] py-6 cursor-pointer hover:bg-gray-100 transition-colors">
+  <div className="flex items-center gap-2 px-[14px] py-6 cursor-pointer hover:bg-gray-100 transition-colors">
     {icon}
     <span className="text-[#374151] font-['Dubai'] text-sm font-bold">{label}</span>
   </div>

@@ -10,6 +10,8 @@ const ListingCard = ({
   priceUnit,
   favorite = false,
   onClick,
+  titleClassName = '',
+  subtitleClassName = '',
 }) => {
   const handleCardClick = (e) => {
     // Don't trigger navigation if clicking on favorite or navigation buttons
@@ -31,35 +33,16 @@ const ListingCard = ({
         className="flex h-[162px] px-2 py-12 justify-between items-center self-stretch rounded-t-md bg-cover bg-center relative"
         style={{ backgroundImage: `url(${image})` }}
       >
-        {/* Navigation Arrows */}
-        <button className="flex p-[5px] flex-col justify-center items-center rounded-full border border-gray-50 bg-white/60">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path
-              d="M13.0876 6.175L11.9126 5L6.9126 10L11.9126 15L13.0876 13.825L9.27093 10L13.0876 6.175Z"
-              fill="black"
-              fillOpacity="0.56"
-            />
-          </svg>
-        </button>
-        <button className="flex p-[5px] flex-col justify-center items-center rounded-full border border-gray-50 bg-white/60">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path
-              d="M8.0876 5L6.9126 6.175L10.7293 10L6.9126 13.825L8.0876 15L13.0876 10L8.0876 5Z"
-              fill="black"
-              fillOpacity="0.56"
-            />
-          </svg>
-        </button>
       </div>
 
       {/* Content */}
       <div className="flex py-3 flex-col items-end gap-2 self-stretch">
         <div className="flex px-3 flex-col items-end gap-1.5 self-stretch">
-          <div className="self-stretch overflow-hidden text-gray-700 text-right font-['Dubai'] text-sm font-medium line-clamp-1">
+          <div className={`self-stretch overflow-hidden text-gray-700 text-right font-['Dubai'] text-sm font-medium line-clamp-1 ${titleClassName}`}>
             {title}
           </div>
           <div className="flex justify-end items-center gap-0.5 self-stretch">
-            <div className="flex-1 overflow-hidden text-[#6B7280] text-right font-['Dubai'] text-xs font-medium line-clamp-1">
+            <div className={`flex-1 overflow-hidden text-[#6B7280] text-right font-['Dubai'] text-xs font-medium line-clamp-1 ${subtitleClassName}`}>
               {subtitle || location}
             </div>
             {(subtitle || location) && (
@@ -91,7 +74,7 @@ const ListingCard = ({
                 {priceUnit}
               </div>
             )}
-            <div className="text-[#0C7A1F] text-right font-['Dubai'] text-sm font-bold">
+            <div className="text-[#111827] text-right font-['Dubai'] text-sm font-bold">
               AED {price}
             </div>
           </div>
@@ -99,11 +82,13 @@ const ListingCard = ({
       </div>
 
       {/* Favorite Icon */}
-      <div className="flex w-5 h-5 p-1.5 justify-center items-center absolute left-2 top-2 rounded-full border border-gray-100 bg-white">
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <div className="flex w-7 h-7 justify-center items-center absolute left-2 top-2 bg-transparent">
+        <svg width="14" height="14" viewBox="0 0 12 12" fill="none" aria-hidden="true">
           <path
             d="M10.4201 2.30591C10.1647 2.05041 9.86147 1.84774 9.52774 1.70945C9.19401 1.57117 8.8363 1.5 8.47506 1.5C8.11382 1.5 7.75611 1.57117 7.42238 1.70945C7.08865 1.84774 6.78544 2.05041 6.53006 2.30591L6.00006 2.83591L5.47006 2.30591C4.95421 1.79007 4.25458 1.50027 3.52506 1.50027C2.79554 1.50027 2.09591 1.79007 1.58006 2.30591C1.06421 2.82176 0.774414 3.5214 0.774414 4.25091C0.774414 4.98043 1.06421 5.68007 1.58006 6.19591L2.11006 6.72591L6.00006 10.6159L9.89006 6.72591L10.4201 6.19591C10.6756 5.94054 10.8782 5.63732 11.0165 5.30359C11.1548 4.96986 11.226 4.61216 11.226 4.25091C11.226 3.88967 11.1548 3.53196 11.0165 3.19824C10.8782 2.86451 10.6756 2.56129 10.4201 2.30591Z"
-            fill={favorite ? '#0C7A1F' : '#D1D5DB'}
+            stroke="#FFFFFF"
+            strokeWidth="1"
+            fill={favorite ? 'rgba(255,255,255,0.15)' : 'none'}
           />
         </svg>
       </div>
